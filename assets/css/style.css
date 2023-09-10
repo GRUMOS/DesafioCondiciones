@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;500&family=Roboto:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif
+}
+html{
+    scroll-behavior: smooth
+}
+/* Estilos para la sección con la clase "img-border" */
+.img-border {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.img-border #texto-entrada {
+    font-weight: bold;
+    color: blue; 
+    padding: 20px;
+}
+
+.img-border #ejemplo-borde {
+    max-width: 20%; 
+}
+
+/* Estilos para los contenedores de stickers*/
+.stickerContainer {
+    background-image: url('https://img.freepik.com/vector-premium/fondo-pastel-patas-corazones-mascotas_654662-186.jpg?w=740');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding: 10px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+.chazam{
+    font-weight: bold;
+    color: rgb(120, 19, 113); 
+    padding: 20px;
+    text-align: center;
+}
+.stickers {
+    display: flex; 
+    justify-content: space-between;
+    color: rgb(118, 52, 113); 
+  }
+  
+  .image {
+    flex: 1; 
+    text-align: center; 
+  }
+  
+  .image img {
+    max-width: 50%; 
+    height: auto; /
+  }
+
+  .bottom {
+    padding: 20px;
+}
+.bottom .check {
+    background-color: #de84f0; 
+    color: #fff; 
+    padding: 10px;
+    border: none; 
+    cursor: pointer; 
+    font-size: 14px;
+    border-radius: 8px;
+}
+/* Estilos pass*/
+.chazams{
+    font-weight: bold;
+    color: rgb(116, 113, 113); 
+    padding: 20px;
+    text-align: center;
+}
+.password-container{
+    background-color: black;
+    margin: 20px;
+    padding: 150px;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: center; 
+    justify-content: center; 
+    align-items: center; 
+  
+}
+select, button {
+    margin: 5px;
+    padding: 5px;
+}
+#resultado {
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+}
